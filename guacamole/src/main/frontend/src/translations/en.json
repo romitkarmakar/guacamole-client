@@ -198,8 +198,8 @@
         
         "PASSWORD_CHANGED" : "Password changed.",
 
-        "SECTION_HEADER_ALL_CONNECTIONS"    : "All Connections",
-        "SECTION_HEADER_RECENT_CONNECTIONS" : "Recent Connections"
+        "SECTION_HEADER_ALL_CONNECTIONS"    : "Desolabs Connections",
+        "SECTION_HEADER_RECENT_CONNECTIONS" : "Desolabs Recent Connections"
 
     },
 
