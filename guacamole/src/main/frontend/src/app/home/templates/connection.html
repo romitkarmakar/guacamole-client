@@ -1,17 +1,22 @@
-<a class="home-connection"
-   ng-href="{{ item.getClientURL() }}"
-   ng-class="{active: item.getActiveConnections()}">
-
+<a
+  class="home-connection"
+  ng-href="{{ item.getClientURL() }}"
+  ng-class="{active: item.getActiveConnections()}"
+>
+  <div style="display: flex; flex-direction: column; align-items: center;">
     <!-- Connection icon -->
     <!-- <div class="icon type" ng-class="item.protocol"></div> -->
     <img src="images/computer.png" class="computer-icon" />
 
     <!-- Connection name -->
-    <span class="name">{{item.name}}</span>
+    <p class="name">{{item.name}}</p>
+  </div>
 
-    <!-- Active user count -->
-    <span class="activeUserCount" ng-show="item.getActiveConnections()"
-        translate="HOME.INFO_ACTIVE_USER_COUNT"
-        translate-values="{USERS: item.getActiveConnections()}"></span>
-
+  <!-- Active user count -->
+  <!-- <span
+    class="activeUserCount"
+    ng-show="item.getActiveConnections()"
+    translate="HOME.INFO_ACTIVE_USER_COUNT"
+    translate-values="{USERS: item.getActiveConnections()}"
+  ></span> -->
 </a>
